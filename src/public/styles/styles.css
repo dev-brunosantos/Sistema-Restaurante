@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    width: 100vw;
+    max-width: 1500px;
+    height: 100vh;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 70px;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_principal {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_lista {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* PAGINAS */
+.corpo {
+    position: relative;
+}
+
+.paginas {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+}
+
+.paginas h1 {
+    width: 60%;
+    font-size: 5rem;
+    text-align: center;
+    line-height: 8rem;
+}

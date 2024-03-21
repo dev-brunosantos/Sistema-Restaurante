@@ -1,3 +1,5 @@
-module.exports = [
-    'Bruno'
-]
+const CargosRoutes = require("./CargosRoutes");
+
+module.exports = {
+    CargosRoutes
+}

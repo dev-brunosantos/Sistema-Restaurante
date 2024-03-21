@@ -10,8 +10,12 @@ app.set('view engine', 'pug')
 
 app.use(express.static(__dirname + '/public'))
 app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({extended: false}))
+app.use(bodyParser.urlencoded({ extended: false }))
 app.use(cors())
-app.use(rotas)
+app.use(rotas.CargosRoutes)
+
+app.get('/', (req, res) => {
+    res.render('index')
+})
 
 module.exports = app

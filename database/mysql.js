@@ -5,7 +5,7 @@ const MsgErro = 'Por favor, tente novamente.'
 const Mysql = conexao.createConnection({
     host: process.env.HOST,
     user: process.env.USUARIO,
-    password: process.env.USUARIO,
+    password: process.env.SENHA,
     database: process.env.DATABASE
 })
 
